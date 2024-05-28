@@ -21,14 +21,21 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
             <Link className="mr-auto" href={"/"}>
               Tommy MARTIN
             </Link>
-            <Link href="https://github.com/mlfcnt" target="_blank">
-              Github
-            </Link>
+            <Link href="/about">About me</Link>
             <Link
               href="https://www.linkedin.com/in/tommy-martin-72956b1ab/"
               target="_blank"
             >
               Linkedin
+            </Link>
+            <Link href="https://github.com/mlfcnt" target="_blank">
+              Github
+            </Link>
+            <Link
+              href="https://vercel.com/tommy-martins-projects"
+              target="_blank"
+            >
+              Vercel
             </Link>
           </div>
         </Group>
