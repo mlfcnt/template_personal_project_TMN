@@ -1,6 +1,9 @@
 async function getData() {
   const res = await fetch(
-    "https://gist.githubusercontent.com/mlfcnt/bda9b7bba46a5c4c81193d5102544b0a/raw"
+    "https://gist.githubusercontent.com/mlfcnt/bda9b7bba46a5c4c81193d5102544b0a/raw",
+    {
+      cache: "no-store",
+    }
   );
 
   if (!res.ok) {
